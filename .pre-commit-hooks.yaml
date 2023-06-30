@@ -1,0 +1,6 @@
+- id: bazel-buildifier
+  name: bazel buildifier
+  description: format Bazel files with buildifier
+  entry: buildifier
+  language: python
+  types: [bazel]
