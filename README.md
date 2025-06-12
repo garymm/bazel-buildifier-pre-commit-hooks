@@ -6,7 +6,7 @@ Sample `.pre-commit-config.yaml`:
 
 ```yaml
 -   repo: https://github.com/garymm/bazel-buildifier-pre-commit-hooks
-    rev: v6.1.2
+    rev: v8.2.1
     hooks:
     -   id: bazel-buildifier
 ```
