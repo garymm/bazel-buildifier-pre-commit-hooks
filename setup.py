@@ -16,27 +16,27 @@ from distutils.core import Command
 from setuptools import setup
 from setuptools.command.install import install as orig_install
 
-BUILDIFIER_VERSION = "6.1.2"
+BUILDIFIER_VERSION = "8.2.1"
 POSTFIX_SHA256: dict[tuple[str, str], tuple[str, str]] = {
     ("Linux", "arm64"): (
         "linux-arm64",
-        "0ba6e8e3208b5a029164e542ddb5509e618f87b639ffe8cc2f54770022853080",
+        "3baa1cf7eb41d51f462fdd1fff3a6a4d81d757275d05b2dd5f48671284e9a1a5",
     ),
     ("Linux", "x86_64"): (
         "linux-amd64",
-        "51bc947dabb7b14ec6fb1224464fbcf7a7cb138f1a10a3b328f00835f72852ce",
+        "6ceb7b0ab7cf66fceccc56a027d21d9cc557a7f34af37d2101edb56b92fcfa1a",
     ),
     ("Darwin", "arm64"): (
         "darwin-arm64",
-        "7549b5f535219ac957aa2a6069d46fbfc9ea3f74abd85fd3d460af4b1a2099a6",
+        "cfab310ae22379e69a3b1810b433c4cd2fc2c8f4a324586dfe4cc199943b8d5a",
     ),
     ("Darwin", "x86_64"): (
         "darwin-amd64",
-        "e2f4a67691c5f55634fbfb3850eb97dd91be0edd059d947b6c83d120682e0216",
+        "9f8cffceb82f4e6722a32a021cbc9a5344b386b77b9f79ee095c61d087aaea06",
     ),
-    ("Windows", "x86_64"): (
+    ("Windows", "AMD64"): (
         "windows-amd64.exe",
-        "92bdd284fbc6766fc3e300b434ff9e68ac4d76a06cb29d1bdefe79a102a8d135",
+        "802104da0bcda0424a397ac5be0004c372665a70289a6d5146e652ee497c0dc6",
     ),
 }
 
